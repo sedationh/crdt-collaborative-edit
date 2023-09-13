@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Parcel related files
+dist/
+.parcel-cache/
+
+# jest
+coverage/

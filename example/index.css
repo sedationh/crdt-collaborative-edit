@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.editors {
+  display: flex;
+  justify-content: space-between;
+}
+.editor-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.mid {
+  flex-basis: 300px;
+}
+
+.editor-wrap > h2 {
+  text-align: center;
+}
+
+.CodeMirror {
+  width: 100%;
+}
+
+[id^='tree-view'] {
+  max-width: calc(40vw - 10px);
+  overflow: auto;
+}
+
+.diagram-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+}
+
+.diagram {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  transition: all .5s;
+  width: 100%;
+}
+
+.type {
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.char {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
